@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- links to bootstrap, font awesome, css files, js files and jquery -->  
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://kit.fontawesome.com/10acf30736.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Manrope:wght@900&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <!--
+      <script type="text/javascript">
+        (function() {
+            emailjs.init("user_VTMnEhRsonpEtDwJFs1O2");
+        })();
+      </script>
+        -->
+    <title>MJB Trades</title>
+</head>
+<body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   
+        <header class="py-5 text-white">
+            <nav class="navbar navbar-dark navbar-expand-lg bg-nav white-text fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler3"
+                    aria-controls="myNavbarToggler3" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand ml-3 text-uppercase title" href="index.html"> <img src="/assets/media/MJB LOGO NEW.png" alt="" width="128" height="96"></a>
+                <div class="collapse navbar-collapse" id="myNavbarToggler3">
+                    <ul class="navbar-nav ml-auto text-white">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                                               
+                    </ul>
+                </div>
+            </nav>
+        
+            <!-- Image and text -->
+            
+        </header>
+        <div class="background-here py-5">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-8 col-sm-12 ml-md-3 ml-xs-0 mt-md-0 mt-xs-4 message-box">
+                                <div class="text-box rounded-50 text-center px-1 ">
+                                    <form class="forms p-4 py-5 contact-us-form text-white" onsubmit="return sendMail(this);">
+                                        <h5 class="text-uppercase whatsapp-size">Send an enquiry or click to contact us on <span><a class="bright-green font-weight-bold text-decoration-green " href="https://wa.me/447458341414" target="_blank">Whatsapp <i class="fa-brands fa-whatsapp"></i></a></span></h5>
+                                        <div class="mt-4 inputs"> 
+                                        
+                                            <input type="text" class="form-control my-2" id="fromName"  name="name" placeholder=" Name" required>
+                                            
+                                            <input type="email" class="form-control my-2" id="fromEmail" name="email" placeholder=" Email" required>
+                                            <input type="tel" class="form-control my-2" id="fromTel" name="tel" placeholder=" Contact Number" required>
+                                            <input type="text" class="form-control my-2" id="fromProduct" name="product" placeholder=" Product Name" required>
+                                            <input type="numver" class="form-control my-2" id="fromQuantity" name="quantity" placeholder=" Quantity" required>
+                                            <input type="text" class="form-control my-2" id="fromPort" name="port" placeholder=" Destination Port" required>
+                                            <input type="text" class="form-control my-2" id="fromPrice" name="price" placeholder=" Target Price" required>
+                                            <input type="text" class="form-control my-2" id="fromTerm" name="term" placeholder=" Payment Term" required>
+                                            <textarea rows="3" class="form-control my-2" id="info" name="info" placeholder=" Other Info"></textarea>
+                                            <button type="submit" class="btn btn-success mt-3"><span class="font-weight-bold letter-spacing">SEND REQUEST</span></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-fluid bg-img py-5">
+        <h1 class="text-center pb-5 text-white">Products</h1>
+        <div class="row">
+            <div class="col-3 image-hover">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/611d0c89cab8dca7e8342af3/0x0.jpg?format=jpg&width=1200" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text-image">John Doe</div>
+                </div>
+            </div>
+            <div class="col-3 image-hover">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/611d0c89cab8dca7e8342af3/0x0.jpg?format=jpg&width=1200" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text-image">John Doe</div>
+                </div>
+            </div>
+            <div class="col-3 image-hover">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/611d0c89cab8dca7e8342af3/0x0.jpg?format=jpg&width=1200" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text-image">John Doe</div>
+                </div>
+            </div>
+            <div class="col-3 image-hover">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/611d0c89cab8dca7e8342af3/0x0.jpg?format=jpg&width=1200" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text-image">John Doe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer Links -->
+    <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center small border-top border-bottom">2022 Created By:
+        <a class="text-decoration-none" href="https://www.instagram.com/codeitwith_ali/" target="_blank"> CodeItWith_Ali</a>
+      </div>
+      <!-- Copyright -->
+  
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

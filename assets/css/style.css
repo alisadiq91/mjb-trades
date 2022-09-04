@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lato', sans-serif;
+   
+    overflow-x: hidden;
+    color: white !;
+
+}
+
+.background-here {
+    background: url(https://dam.krohne.com/t_ar43_cr_c//e_trim:0/w_700/q_auto/dpr_3.0/f_auto/d_im-other:image-not-available.png/im-contract-photography/orange-black-loaded-container-ship-harbour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-nav {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-white {
+    color: white !important;
+}
+
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 40px;
+}
+.rounded-50 {
+   
+    border-radius: 3%;
+
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.text-decoration-green {
+    text-decoration: none;
+    
+}
+
+.text-decoration-green:hover {
+    color: rgb(34, 241, 120) !important;
+    text-decoration: none !important;
+}
+
+.green {
+    color: green;
+}
+
+.bright-green {
+    color: rgb(64, 255, 64);
+}
+
+.whatsapp-size {
+    font-size: x-large;
+}
+
+a:hover {
+    color: rgb(41, 175, 14) !important;
+    text-decoration: none;
+
+}
+
+.footer-copyright {
+
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: white !important;
+}
+
+.text-grey {
+    color: white !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+/* image hovering */
+
+.image-hover {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .image-hover:hover .image {
+    opacity: 0.3;
+  }
+  
+  .image-hover:hover .middle {
+    opacity: 1;
+  }
+  
+  .text-image {
+    background-color: rgb(41, 175, 14);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 10%;
+  }
+
+  .bg-img {
+    background: rgba(0, 0, 0, 0.7) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
