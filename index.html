@@ -71,19 +71,38 @@
                                 <div class="text-box rounded-50 text-center px-1 ">
                                     <form class="forms p-4 py-5 contact-us-form text-white" onsubmit="return sendMail(this);">
                                         <h5 class="text-uppercase whatsapp-size">Send an enquiry or click to contact us on <span><a class="bright-green font-weight-bold text-decoration-green " href="https://wa.me/447458341414" target="_blank">Whatsapp <i class="fa-brands fa-whatsapp"></i></a></span></h5>
-                                        <div class="mt-4 inputs"> 
-                                        
-                                            <input type="text" class="form-control my-2" id="fromName"  name="name" placeholder=" Name" required>
-                                            
-                                            <input type="email" class="form-control my-2" id="fromEmail" name="email" placeholder=" Email" required>
-                                            <input type="tel" class="form-control my-2" id="fromTel" name="tel" placeholder=" Contact Number" required>
-                                            <input type="text" class="form-control my-2" id="fromProduct" name="product" placeholder=" Product Name" required>
-                                            <input type="numver" class="form-control my-2" id="fromQuantity" name="quantity" placeholder=" Quantity" required>
-                                            <input type="text" class="form-control my-2" id="fromPort" name="port" placeholder=" Destination Port" required>
-                                            <input type="text" class="form-control my-2" id="fromPrice" name="price" placeholder=" Target Price" required>
-                                            <input type="text" class="form-control my-2" id="fromTerm" name="term" placeholder=" Payment Term" required>
-                                            <textarea rows="3" class="form-control my-2" id="info" name="info" placeholder=" Other Info"></textarea>
-                                            <button type="submit" class="btn btn-success mt-3"><span class="font-weight-bold letter-spacing">SEND REQUEST</span></button>
+                                        <div class="mt-4 inputs form-row"> 
+                                            <div class="form-group col-md-12">
+                                                <input type="text" class="form-control " id="fromName"  name="name" placeholder=" Name" required>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <input type="email" class="form-control " id="fromEmail" name="email" placeholder=" Email" required>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <input type="tel" class="form-control " id="fromTel" name="tel" placeholder=" Contact Number" required>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <input type="text" class="form-control " id="fromProduct" name="product" placeholder=" Product Name" required>
+                                            </div>
+                               
+                                            <div class="form-group col-md-6">
+                                                <input type="number" class="form-control " id="fromQuantity" name="quantity" placeholder=" Quantity" required>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control " id="fromPort" name="port" placeholder=" Destination Port" required>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="fromPrice" name="price" placeholder=" Target Price" required>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="fromTerm" name="term" placeholder=" Payment Term" required>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <textarea rows="3" class="form-control " id="info" name="info" placeholder=" Other Info"></textarea>
+                                            </div>
+                                            <div class="container d-flex justify-content-center">
+                                                <button type="submit" class="btn btn-success mt-1"><span class="font-weight-bold letter-spacing">SEND REQUEST</span></button>
+                                            </div>
                                         </div>
                                     </form>
                                 </div>
@@ -141,7 +160,7 @@
 
 
     <!-- Footer Links -->
-    <div class="container-fluid py-2 text-center footer bg-footer border-top">
+    <div class="container-fluid py-2 text-center footer bg-nav border-top ">
         <div class="row">
             <div class="col-4 text-decoration-none">
                 <i class="fa-solid fa-envelope"></i><br><a class="text-decoration-none" href="mailto:info@mjb-trades.com">info@mjb-trades.com</a>
@@ -157,7 +176,7 @@
     </div>
     <!-- Footer Links -->
       <!-- Copyright -->
-      <div class="footer-copyright text-center small border-top border-bottom">2022 Created By:
+      <div class="footer-copyright text-center bg-nav small border-top border-bottom">2022 Created By:
         <a class="text-decoration-none" href="https://www.instagram.com/codeitwith_ali/" target="_blank"> CodeItWith_Ali</a>
       </div>
       <!-- Copyright -->
