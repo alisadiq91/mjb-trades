@@ -155,6 +155,17 @@ a:hover {
     color: white !important;
   }
 
+  .about-text-two {
+    background-color: rgba(0, 0, 0, 0.9);
+
+    
+    color: white !important;
+  }
+
+  .border-white {
+    border: solid white 3px;
+  }
+
   .text-whitesmoke {
     color: whitesmoke;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
@@ -198,3 +209,8 @@ a:hover {
   .contact-icon {
     color: rgb(41, 175, 14) !important;
   }
+
+  .img-about {
+    height: 200px;
+  }
+
