@@ -20,6 +20,9 @@ body {
     color: white !important;
 }
 
+.text-black {
+  color: black !important;
+}
 
 .text-box {
     background-color: rgba(0, 0, 0, 0.7);
@@ -137,6 +140,19 @@ a:hover {
   
   .title-text {
     background-color: rgba(48, 45, 45, 0.7);
+  }
+
+  .about-title {
+    font-size: 90px;
+    font-weight: 900 !important;
+  }
+
+  .font-large {
+    font-size: larger;
+  }
+
+  .about-para {
+    font-size: larger !important;
   }
 
   .green-text {
