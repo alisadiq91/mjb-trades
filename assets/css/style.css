@@ -1,6 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
-   
+  font-family: 'Reem Kufi Ink', sans-serif;
     overflow-x: hidden;
     color: white !;
 
@@ -147,12 +146,17 @@ a:hover {
     font-weight: 900 !important;
   }
 
+  .standard-title {
+    font-size: 60px;
+    font-weight: 900 !important;
+  }
+
   .font-large {
     font-size: larger;
   }
 
   .about-para {
-    font-size: larger !important;
+    font-size: x-large !important;
   }
 
   .green-text {
