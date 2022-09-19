@@ -12,11 +12,11 @@ body {
 }
 
 .bg-nav {
-    background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 254, 254);
 }
 
 .text-white {
-    color: white !important;
+    color: black !important;
 }
 
 .text-black {
@@ -26,6 +26,10 @@ body {
 .text-box {
     background-color: rgba(0, 0, 0, 0.7);
     margin-top: 40px;
+}
+
+.white-text-1 {
+  color: white !important;
 }
 .rounded-50 {
    
@@ -68,7 +72,8 @@ a:hover {
 
 .footer-copyright {
 
-  color: white !important;
+  color: black !important;
+  border-top: solid black 2px !important;
 }
 
 .text-grey {
@@ -77,7 +82,12 @@ a:hover {
 
 .text-decoration-none {
     text-decoration: none !important;
-    color: white !important;
+    color: black !important;
+}
+
+.text-none-black {
+  text-decoration: none !important;
+  color: black;
 }
 
 .text-decoration-zero {
@@ -169,17 +179,15 @@ a:hover {
   }
 
   .about-text {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 254, 254, 0.7);
 
     border-radius: 4%;
-    color: white !important;
+    color: black !important;
   }
 
   .about-text-two {
-    background-color: rgba(0, 0, 0, 0.9);
-
-    
-    color: white !important;
+    background-color: rgba(255, 254, 254, 0.7);
+    color: black !important;
   }
 
   .border-white {
@@ -200,6 +208,10 @@ a:hover {
   .bg-footer {
     background: linear-gradient(to right, #868f96 0%, #596164 100%);
 
+  }
+
+  .footer {
+    border-top: solid black 2px !important;
   }
 
   .contact-bg {
@@ -228,6 +240,10 @@ a:hover {
 
   .contact-icon {
     color: rgb(41, 175, 14) !important;
+  }
+
+  .contact-icon-size {
+    font-size: xx-large;
   }
 
   .img-about {
