@@ -19,6 +19,10 @@ body {
     color: black !important;
 }
 
+.text-white-1 {
+  color: whitesmoke !important;
+}
+
 .text-black {
   color: black !important;
 }
@@ -263,10 +267,20 @@ a:hover {
   }
 
   .img-size {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 120px;
   }
 
   .bg-whitesmoke {
     background-color: whitesmoke;
   }
+
+ h4 span {
+  background-color: rgba(48, 47, 47, 0.87);
+ }
+
+ .bg-image-dark {
+  background-image: url(https://proudfiler.com/wp-content/uploads/2021/02/image-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
