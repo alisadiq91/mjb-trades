@@ -6,7 +6,7 @@ body {
 }
 
 .background-here {
-    background: url(/assets/media/bg-2.jpg);
+    background: url(https://github.com/alisadiq91/mjb-trades/blob/main/assets/media/bg-2.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -216,7 +216,7 @@ a:hover {
   }
 
   .about-bg {
-    background-image: url(/assets/media/bg-1.jpg);
+    background-image: url(https://github.com/alisadiq91/mjb-trades/blob/main/assets/media/bg-1.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -295,3 +295,28 @@ a:hover {
  .country-text {
   font-weight: bolder;
  }
+
+ .img-size-mobile {
+  max-width: 100%;
+ }
+
+ @media only screen and (max-width: 800px) {
+  
+  .about-title {
+    font-size: 50px;
+    font-weight: 900 !important;
+  }
+
+  .about-para {
+    font-size: 15px !important;
+  }
+
+  .about-bg {
+    background-image: url(https://github.com/alisadiq91/mjb-trades/blob/main/assets/media/bg-1.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    
+  }
+
+}
+ 
